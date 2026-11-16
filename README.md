@@ -12,12 +12,15 @@ A carrier can evaluate a load (via Free Load Check) and get a clear Take / Negot
 
 ## Status
 
-**MVP Specification complete.** Implementation baseline defined in the Product Requirements Specification.
+**PRS v1.3 complete.** Full original Haulpad economic intelligence capabilities restored, plus complete competitive parity with CarriersPay.
 
 ## Documentation
 
-- **[Product Requirements Specification (PRS) v1.0](docs/Haulpad_Product_Requirements_Specification_v1.0.md)**  
-  Complete, implementation-ready specification for the coding agent. Includes data model, calculation engine, functional requirements, state machines, acceptance criteria, and explicit in/out of scope.
+- **[Product Requirements Specification (PRS) v1.3](docs/Haulpad_Product_Requirements_Specification_v1.0.md)**  
+  Complete, implementation-ready specification. Includes:
+  - Original Haulpad intelligence layer (contribution engine, leakage categories, Attention Inbox, lane/broker views, scenario comparison, negotiation guidance, decision history, cash intelligence, document-to-cash)
+  - Full CarriersPay operational parity (settlements, dispatch, driver/office mobile experience, IFTA, compliance, My Network, reports, maintenance, etc.)
+  - Data model, calculation formulas, functional requirements, acceptance criteria, and north-star metric
 
 ## Target Customer
 
@@ -30,8 +33,9 @@ US independent and small for-hire trucking carriers operating approximately 3–
 3. Estimates and actuals remain distinct.
 4. Recommendations are explainable.
 5. Data captured as a by-product of work.
+6. Full operational parity with category competitors; economic intelligence is the differentiator.
 
-## Repository Structure (planned)
+## Repository Structure
 
 ```
 /
